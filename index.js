@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080;
 app.get('/', (req, res) => {
   res.json({
     status: "successful",
-    message: "Node.js Application Deployed Successfully! today $(Date)",
+    message: "Node.js Application Deployed Successfully! today $(Date). It feels good to learn git and github",
     timestamp: new Date()
   });
 });
